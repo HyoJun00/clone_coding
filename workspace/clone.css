@@ -616,6 +616,96 @@ a .slide-num {
     right: 25px;
 }
 
+/* 전국 숨은고수 */
+.findgosu-container {
+    display: flex;
+    margin: auto;
+    width: 970px;
+    margin-bottom: 80px;
+}
+
+.findgosu-areaContainer {
+    padding-left: 80px;
+}
+
+.findgosu-text2 {
+    margin: 0;
+}
+
+.findgosu-area1 {
+    margin-bottom: 30px;
+}
+
+.findgosu-area1 li {
+    width: 52px;
+    height: 32px;
+    font-size: 15px;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 32px;
+
+    color: #00c7ae;
+    background-color: #eafaf9;
+    border-radius: 20px;
+}
+
+.findgosu-area2 li {
+    width: 52px;
+    height: 32px;
+    font-size: 15px;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 32px;
+
+    color: #00c7ae;
+    background-color: #eafaf9;
+    border-radius: 20px;
+}
+
+.findgosu-area1 {
+    display: flex;
+}
+
+.findgosu-area2 {
+    display: flex;
+}
+
+/* 숨고 이야기 */
+.soomgo-story{
+    width: 970px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.soomgo-storyTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.soomgo-storyTitle a {
+    position: relative;
+    top: 20px;
+}
+
+.soomgo-storyTitle a:visited {
+    color: #00c7ae;
+}
+
+.soomgo-storyContentContainer {
+    display: flex;
+}
+
+.soomgo-storyContent1, .soomgo-storyContent2, .soomgo-storyContent3 {
+    width: 313px;
+    margin-right: 20px;
+}
+
+.soomgo-storyContent1 img, .soomgo-storyContent2 img, .soomgo-storyContent3 img{
+    width: 313px;
+    height: 207px;
+    border-radius: 10px;
+}
+
 /* footer */
 footer {
     border-top: 1px solid lightgrey;
