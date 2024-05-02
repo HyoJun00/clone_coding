@@ -5,15 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>join page</title>
   <link rel="stylesheet" href="./join.css">
+  <script defer src="./join.js"></script>
 </head>
 <body>
   <header>
-    <!-- 상단 로고 및 메뉴 -->
+    <!-- 헤더 -->
     <div class="header-top">
         <div class="top-left">
             <ul>
                 <li class="logo">
-                    <a href="#">
+                    <a href="./clone.html">
                         <img src="https://assets.cdn.soomgo.com/icons/logo/navigation_logo.svg" alt="">
                     </a>
                 </li>
@@ -44,80 +45,90 @@
 
         <div class="top-right">
             <ul>
-                <li class="login"><a href="#">로그인</a></li>
-                <li class="join"><a href="#">회원가입</a></li>
+                <li class="login"><a href="./login.html">로그인</a></li>
+                <li class="join"><a href="./join.html">회원가입</a></li>
             </ul>
 
             <button class="gosu-join"><a href="#">고수가입</a></button>
         </div>
     </div>
 </header>
+
+<!-- 회원가입 메인 -->
 <main>
   <h2>숨고에 오신 것을 환영합니다</h2>
     <div class="join_form">
       <form action="">
         <div class="join_name">
           <label for="">이름</label>
-          <input type="text" placeholder="이름(실명)을 입력해주세요"/>
+          <input type="text" id="join_name" placeholder="이름(실명)을 입력해주세요"/>
         </div>
         <div class="join_email">
           <label for="">이메일</label>
-          <input type="text" placeholder="example@soomgo.com"/>
+          <input type="text" id="join_email" placeholder="example@soomgo.com"/>
         </div>
         <div class="join_password">
           <label for="">비밀번호</label>
-          <input type="text" placeholder="영문+숫자 조합 8자리 이상 입력해주세요."/>
+          <input type="text" id="join_password" placeholder="영문+숫자 조합 8자리 이상 입력해주세요."/>
         </div>
+
         <div class="join_terms" id="join_check">
           <div>
             <label for="check_all">약관 전체 동의</label>
             <input type="checkbox" id="check_all" >
           </div>
+
           <ul>
             <li>
               <label for="">
                 <span>만 14세 이상입니다</span>
                 <span>(필수)</span>
               </label>
-              <input type="checkbox" id="check1">
+              <input type="checkbox" class="check">
             </li>
+
             <li>
               <label for="">
                 <span><a href="">이용약관 동의</a></span>
                 <span>(필수)</span>
               </label>
-              <input type="checkbox" id="check2">
+              <input type="checkbox" class="check">
             </li>
+
             <li>
               <label for="">
                 <span><a href="">개인정보 수집 및 이용 동의</a></span>
                 <span>(필수)</span>
               </label>
-              <input type="checkbox" id="check3">
+              <input type="checkbox" class="check">
             </li>
+
             <li>
               <label for="">
                 <span><a href="">선택정보 수집 및 이용 동의</a></span>
                 <span>(선택)</span>
               </label>
-              <input type="checkbox" id="check4">
+              <input type="checkbox" class="check">
             </li>
+
             <li>
               <label for="">
                 <span><a href="">개인정보 마케팅 활용 동의</a></span>
                 <span>(선택)</span>
               </label>
-              <input type="checkbox" id="check5">
+              <input type="checkbox" class="check">
             </li>
+
             <li>
               <label for="">
                 <span><a href="">마케팅 알림 수신 동의</a></span>
                 <span>(선택)</span>
               </label>
-              <input type="checkbox" id="check6">
+              <input type="checkbox" class="check">
             </li>
           </ul>
         </div>
+
         <div class="join_button">
           <button>회원가입</button>
           <a href="">고수로 가입하시나요?</a>
@@ -125,6 +136,8 @@
       </form>
     </div>
 </main>
+
+<!-- 푸터 -->
 <footer>
   <div class="footer">
       <div class="footer1">

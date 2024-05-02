@@ -5,15 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>login page</title>
   <link rel="stylesheet" href="./login.css">
+  <script defer src="./login.js"></script>
 </head>
 <body>
   <header>
-    <!-- 상단 로고 및 메뉴 -->
+    <!-- 헤더 -->
     <div class="header-top">
         <div class="top-left">
             <ul>
                 <li class="logo">
-                    <a href="#">
+                    <a href="./clone.html">
                         <img src="https://assets.cdn.soomgo.com/icons/logo/navigation_logo.svg" alt="">
                     </a>
                 </li>
@@ -44,25 +45,27 @@
 
         <div class="top-right">
             <ul>
-                <li class="login"><a href="#">로그인</a></li>
-                <li class="join"><a href="#">회원가입</a></li>
+                <li class="login"><a href="./login.html">로그인</a></li>
+                <li class="join"><a href="./join.html">회원가입</a></li>
             </ul>
 
             <button class="gosu-join"><a href="#">고수가입</a></button>
         </div>
     </div>
 </header>
+
+<!-- 로그인 메인 -->
 <main>
     <h2>로그인</h2>
     <div class="login_form">
       <form action="">
         <div class="login_email">
           <label for="">이메일</label>
-          <input type="text" placeholder="example@soomgo.com"/>
+          <input id="login_email" type="text" placeholder="example@soomgo.com"/>
         </div>
         <div class="login_password">
           <label for="">비밀번호</label>
-          <input type="text" placeholder="비밀번호를 입력해주세요."/>
+          <input id="login_password" type="text" placeholder="비밀번호를 입력해주세요."/>
         </div>
         <div class="login_button">
           <button>이메일 로그인</button>
@@ -95,6 +98,8 @@
       </form>
     </div>
 </main>
+
+<!-- 푸터 -->
 <footer>
   <div class="footer">
       <div class="footer1">

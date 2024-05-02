@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-/* 상단 메뉴 전체 */
+/* 헤더 */
 header {
     /* border-bottom: 1px solid rgb(240, 240, 240); */
     width: 100%;
@@ -706,7 +706,7 @@ a .slide-num {
     border-radius: 10px;
 }
 
-/* footer */
+/* 푸터 */
 footer {
     border-top: 1px solid lightgrey;
 }
