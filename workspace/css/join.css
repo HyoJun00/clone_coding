@@ -1,149 +1,21 @@
-body {
-  margin: 0;
-  padding: 0;
+
+
+*{
+  font-family: "Noto Sans KR", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;  
+  color: #323232;
 }
 
-/* 상단 메뉴 전체 */
-header {
-  /* border-bottom: 1px solid rgb(240, 240, 240); */
-  width: 100%;
-  height: 72px;
-  position: sticky;
-  top: 0;
-  background-color: white;
-  z-index: 10000;
-}
-
-.header-top {
-  width: 970px;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-/* 상단 로고, 네비게이션 */
-.top-left ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-  width: 370px;
-}
-
-.top-left li {
-  list-style: none;
-}
-
-.logo img {
-  width: 79.5px;
-}
-
-.nav a {
-  font-size: 15px;
-  font-weight: 550;
-  text-decoration-line: none;
-}
-
-.nav a:visited {
-  color: black;
-}
-
-/* 상단 가운데 검색창 */
-.top-middle form {
-  width: 250px;
-  height: 40px;
-  border-radius: 6px;
-  background-color: #f4f4f4;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 0.75rem;
-}
-
-.icon {
-  display: flex;
-  background-color: transparent;
-  border: none;
-  margin: 0;
-  cursor: pointer;
-}
-
-.input {
-  border: none;
-  padding: 0;
-  background-color: #f4f4f4;
-  margin: 0 5px;
-  font-weight: 550;
-}
-
-.input::placeholder {
-  color: #cacaca;
-  font-size: .845rem;
-}
-
-/* 상단 오른쪽 로그인 */
-.top-right {
-  display: flex;
-  align-items: center;
-}
-
-.top-right ul {
-  display: flex;
-  margin: 0 10px;
-  padding: 0;
-  line-height: 44px;
-}
-
-.login,
-.join {
-  list-style: none;
-  font-size: 14px;
-  margin: 0 10px;
-}
-
-.top-right ul li a {
-  text-decoration-line: none;
-}
-
-.login a:visited,
-.join a:visited {
-  color: black;
-}
-
-.gosu-join {
-  border-radius: 6px;
-  border: none;
-  width: 80px;
-  height: 40px;
-  background-color: #00c7ae;
-}
-
-.gosu-join:hover {
-  background-color: #00a18d;
-  border-color: #009481;
-}
-
-.gosu-join a {
-  color: white;
-  text-decoration-line: none;
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.gosu-join a:visited {
-  color: white;
-}
-
-/* 회원가입 */
 main{
+  padding-top: 10px;
   background-color: #fafafa;
   padding-bottom: 100px;
 }
 
 h2{
-  padding-top: 130px;
+  padding-top: 100px;
   text-align: center;
   font-size: 34px;
   margin-bottom: 40px;
@@ -338,117 +210,13 @@ h2{
   padding: 20px 0;
 }
 
-/* 푸터 */
-footer {
-  border-top: 1px solid lightgrey;
-}
-
-footer p {
-  margin: 0;
-  padding: 0;
-}
-
-.footer {
-  width: 970px;
-  height: 500px;
-  margin: auto;
-}
-
-.footer1 {
-  padding: 20px 0;
-  height: 220px;
-}
-
-.footer-number {
-  padding: 10px 0;
-  font-size: 24px;
-  font-weight: bold;
-  color: rgb(0, 199, 174);
-}
-
-.footer-iconContainer {
-  display: flex;
-}
-
-.footer-icon1, .footer-icon2 {
-  color: white;
-  background-color: rgb(0, 199, 174);
-  width: 160px;
-  height: 40px;
-  line-height: 40px;
-  border-radius: 25px;
-  font-weight: bold;
-  margin: 30px 0;
-  text-align: center;
-}
-
-.footer-icon2 {
-  position: relative;
-  left: 200px;
-  bottom: 70px;
-}
-
-.footer-icon1 img {
-  position: relative;
-  top: 7px;
-  margin-right: 10px;
-  width: 25px;
-  height: 25px;
-}
-
-.footer-icon2 img {
-  position: relative;
-  top: 5px;
-  margin-right: 10px;
-  width: 25px;
-  height: 25px;
-}
-
-.footer2 {
-  display: flex;
-  justify-content: space-between;
-  width: 350px;
-  position: relative;
-  left: 620px;
-  bottom: 230px;
-}
-
-.footer2 p {
+.write_join_name, .write_join_email, .write_join_pw{
+  margin-top: 4px;
   font-size: 14px;
-  padding: 5px 0;
+  color: red;
 }
 
-.footer3 {
-  position: relative;
-  bottom: 200px;
-}
-
-.footer3-1 {
-  display: flex;
-  margin: 10px 0;
-}
-
-.footer3-1 p {
+.please_check{
+  color: red;
   font-size: 14px;
-  margin-right: 20px;
-}
-
-.footer3-2 {
-  width: 700px;
-}
-
-.footer3-2 p {
-  font-size: 14px;
-}
-
-.footer3-3 {
-  position: relative;
-  left: 750px;
-  bottom: 100px;
-}
-
-.footer3-3 img {
-  width: 30px;
-  height: 30px;
-  margin: 0 5px;
 }
