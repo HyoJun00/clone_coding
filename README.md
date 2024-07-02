@@ -28,7 +28,7 @@
 <h4>2.검색창</h4>
 <img src="https://github.com/HyoJun00/clone_coding/assets/157595885/dabc5db1-7aeb-4502-8c5d-b6bf3f233619">
 <h4>3.컨텐츠 슬라이드 배너</h4>
-<img src="https://github.com/HyoJun00/clone_coding/assets/157595885/7a38e154-05bb-45f5-afce-0a1a7dda1f40">
+<img src="https://github.com/HyoJun00/clone_coding/assets/157595885/7a85b53e-c0b1-438b-8a6d-f1ef7abb0f07">
 <h4>4.회원가입</h4>
 <img src="https://github.com/HyoJun00/clone_coding/assets/157595885/2c2857eb-06e9-4d73-9c5a-8b876a8ef473">
 <h4>5.로그인</h4>
