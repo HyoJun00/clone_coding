@@ -1,4 +1,5 @@
 <h1>클론 코딩 프로젝트</h1>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HyoJun00)](https://github.com/anuraghazra/github-readme-stats)
 <h2>클론 코딩의 목적</h2>
 <ul>
   <li>프로젝트를 기획하는데 시간을 들일 필요없이 코딩 실력 향상에 집중할 수 있다.</li>
